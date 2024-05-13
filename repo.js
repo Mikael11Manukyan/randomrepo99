@@ -25,5 +25,5 @@ function obvodtrojuhelniku(rameno, zakladna) {
     return rameno * 2 + zakladna
 }
 
-document.write("Obsah trojuhelniku :" + obsahtrojuhelniku())
-document.write("Obvod trojuhelniku :" + obvodtrojuhelniku())
+document.write("Obsah trojuhelniku :" + obsahtrojuhelniku(trojuhelnik.rameno, trojuhelnik.zakladna))
+document.write("Obvod trojuhelniku :" + obvodtrojuhelniku(trojuhelnik.rameno, trojuhelnik.zakladna))
