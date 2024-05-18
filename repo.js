@@ -18,12 +18,12 @@ document.write("Rameno trojuhelniku" + ":" + trojuhelnik.rameno + "<br>")
 document.write("Zakladna trojuhelniku" + ":" + trojuhelnik.zakladna + "<br>")
 
 function obsahtrojuhelniku(rameno, zakladna) {
-    return (vyska * podstava) / 2
+    return (rameno * zakladna) / 2
 }
 
 function obvodtrojuhelniku(rameno, zakladna) {
     return rameno * 2 + zakladna
 }
 
-document.write("Obsah trojuhelniku :" + obsahtrojuhelniku(trojuhelnik.rameno, trojuhelnik.zakladna))
+document.write("Obsah trojuhelniku :" + obsahtrojuhelniku(trojuhelnik.rameno, trojuhelnik.zakladna) + "<br>")
 document.write("Obvod trojuhelniku :" + obvodtrojuhelniku(trojuhelnik.rameno, trojuhelnik.zakladna))
